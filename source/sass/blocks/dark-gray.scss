@@ -1,0 +1,42 @@
+.dark-gray {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 100%;
+  color: $white;
+}
+
+.dark-gray__genius {
+  width: 211.15px;
+  height: 211.15px;
+  background-color: $dark-gray;
+  overflow-y: scroll;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  padding: 19px 19px 3px 10px;
+  margin-right: 6.75px;
+}
+
+.dark-gray__wrapper {
+  width: 102px;
+}
+
+.dark-gray__feeling {
+  background-color: $dark-gray;
+  min-height: 102.22px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  margin-bottom: 6.5px;
+}
+
+.dark-gray__moreno {
+  background-color: $dark-gray;
+  min-height: 102.22px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}

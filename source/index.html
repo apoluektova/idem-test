@@ -7,58 +7,72 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header">Header</header>
+    <header class="header">header</header>
     <main class="main">
       <h1 class="visually-hidden">Рандомный абстрактный заголовок</h1>
-      <section class="light-gray">
-        <div class="light-gray__employess">Наши сотрудники</div>
-        <div class="light-gray__text">Просветляет понимающий тест</div>
-        <div class="light-gray__conformism">Конформизм</div>
-      </section>
-      <section class="blue">Интроекция</section>
-      <section class="yellow">Наши сотрудники</section>
-      <section class="dark-gray">
-        <div class="dark-gray__genius">
-          Гений непредвзято понимает под собой конфликт. Закон внешнего мира, очевидно, реально подчеркивает аксиоматичный здравый смысл.
-          Культ джайнизма включает в себя поклонение Махавире и другим тиртханкарам, поэтому закон исключённого третьего индуцирует изоморфный ротор.
+      <div class="main__wrapper">
+        <div class="wrapper-blocks main__wrapper--blocks">
+          <section class="light-gray wrapper-blocks__gray">
+            <div class="light-gray__employees">Наши сотрудники</div>
+            <div class="light-gray__text">Просветляет понимающий тест</div>
+            <div class="light-gray__conformism">Конформизм</div>
+          </section>
+          <div class="wrapper wrapper-blocks__colored">
+            <section class="blue">Интроекция</section>
+            <section class="yellow">Наши сотрудники</section>
+          </div>
         </div>
-        <div class="dark-gray__feeling">Чувство однократно</div>
-        <div class="darl-gray__moreno">Морено</div>
-      </section>
-      <section class="green">
-        <div class="green__modernisation">Понятие модернизации понимает механизм власти</div>
-        <div class="green__employees">Наши сотрудники</div>
-        <table class="green__table table">
-          <tr class="table__row">
-            <td class="table__cell">Фамилия</td>
-            <td class="table__cell">Мамай</td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__cell">Имя и отчество</td>
-            <td class="table__cell">Станиславаленина Владимировна</td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__cell">Номер полиса выдан заведомо ложный</td>
-            <td class="table__cell">01354879</td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__cell">Дата рождения</td>
-            <td class="table__cell">01.12.1976</td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__cell">Телефон</td>
-            <td class="table__cell">+79254218069</td>
-          </tr>
-        </table>
-      </section>
-      <section class="multicolored">
-        <div class="multicolored__however">Однако</div>
-        <div class="multicolored__point">Точка перегиба</div>
-        <div class="multicolored__length">Длина вектора</div>
-        <div class="multicolored__leadership">Лидерство</div>
-        <div class="multicolored__genius">Невероятный гений</div>
-      </section>
+        <section class="dark-gray main__wrapper--dark">
+          <div class="dark-gray__genius">
+            Гений непредвзято понимает под собой конфликт. Закон внешнего мира, очевидно, реально подчеркивает аксиоматичный здравый смысл.
+            Культ джайнизма включает в себя поклонение Махавире и другим тиртханкарам, поэтому закон исключённого третьего индуцирует изоморфный ротор.
+          </div>
+          <div class="dark-gray__wrapper">
+            <div class="dark-gray__feeling">Чувство однократно</div>
+            <div class="dark-gray__moreno">Морено</div>
+          </div>
+        </section>
+        <section class="green main__wrapper--green">
+          <div class="green__wrapper">
+            <div class="green__modernisation">Понятие модернизации понимает механизм власти</div>
+            <div class="green__employees">Наши сотрудники</div>
+          </div>
+          <ul class="green__list">
+            <li class="green__item">
+              <span class="green__text--left">Фамилия</span>
+              <span class="green__text">Мамай</span>
+            </li>
+            <li class="green__item">
+              <span class="green__text--left">Имя и отчество</span>
+              <span class="green__text">Станиславаленина Владимировна</span>
+            </li>
+            <li class="green__item">
+              <span class="green__text--left">Номер полиса выдан заведомо ложный</span>
+              <span class="green__text">01354879</span>
+            </li>
+            <li class="green__item">
+              <span class="green__text--left">Дата рождения</span>
+              <span class="green__text">01.12.1976</span>
+            </li>
+            <li class="green__item">
+              <span class="green__text--left">Телефон</span>
+              <span class="green__text">+79254218069</span>
+            </li>
+          </ul>
+        </section>
+        <section class="multicolored main__wrapper--multicolored">
+          <div class="multicolored__wrapper--small">
+            <div class="multicolored__however">Однако</div>
+            <div class="multicolored__point">Точка перегиба</div>
+            <div class="multicolored__length">Длина вектора</div>
+          </div>
+          <div class="multicolored__wrapper">
+            <div class="multicolored__leadership">Лидерство</div>
+            <div class="multicolored__genius">Невероятный гений</div>
+          </div>
+        </section>
+      </div>
     </main>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
   </body>
 </html>

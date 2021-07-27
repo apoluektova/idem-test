@@ -1,0 +1,26 @@
+.main__wrapper {
+  @include wrapper;
+}
+
+@media (min-width: $tablet-width) {
+  .main__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__wrapper--blocks {
+    order: 2;
+  }
+
+  .main__wrapper--dark {
+    order: 1;
+  }
+
+  .main__wrapper--green {
+    order: 3;
+  }
+
+  .main__wrapper--multicolored {
+    order: 4;
+  }
+}

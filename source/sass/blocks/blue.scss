@@ -1,0 +1,10 @@
+.blue {
+  @include small-block($blue);
+  margin-right: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .blue {
+    width: 100%;
+  }
+}

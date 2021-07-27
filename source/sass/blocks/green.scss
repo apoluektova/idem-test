@@ -1,0 +1,58 @@
+.green {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .green {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .green__modernisation {
+    background-color: $green;
+    display: flex;
+    align-items: flex-end;
+    padding: 101px 15px 15px 15px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .green__employees {
+    background-image: url(../img/ship.jpg);
+    color: $white;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .green__wrapper {
+    width: 32.88%;
+    margin-right: 10px;
+  }
+
+  .green__list {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    width: 76.12%;
+    background-color: $green;
+    font-family: $table-font;
+    font-size: 14px;
+    line-height: 19.07px;
+    font-weight: 400;
+  }
+
+  .green__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .green__text {
+    max-width: 131px;
+    text-align: right;
+
+    &--left {
+      max-width: 45%;
+    }
+  }
+}

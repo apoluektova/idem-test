@@ -8,7 +8,7 @@
 }
 
 .dark-gray__genius {
-  width: 67%;
+  width: 66.2%;
   background-color: $dark-gray;
   margin-right: 6.5px;
   position: relative;
@@ -35,7 +35,7 @@
 }
 
 .dark-gray__wrapper {
-  width: 30.5%;
+  width: 31.7%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@
 @media (min-width: $tablet-width) {
   .dark-gray {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 10px;
     width: 100%;
     height: auto;

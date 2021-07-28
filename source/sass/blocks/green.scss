@@ -5,7 +5,7 @@
 @media (min-width: $tablet-width) {
   .green {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     margin-bottom: 10px;
   }
@@ -85,5 +85,11 @@
       align-items: flex-end;
       margin-right: 10px;
     }
+  }
+
+  .green__line {
+    width: 100%;
+    border-bottom: 1px dashed $black;
+    margin-bottom: 4px;
   }
 }

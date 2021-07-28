@@ -38,6 +38,12 @@
     display: flex;
     align-items: flex-end;
     padding: 15px;
+    position: relative;
+
+    &:hover {
+      filter: blur(4px);
+      cursor: pointer;
+    }
   }
 
   .green__info {

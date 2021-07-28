@@ -1,6 +1,6 @@
 @mixin small-block($background-color) {
   width: calc((100% - 10px)/ 2);
-  padding: 15px;
+  padding: 15px 15px 13px 15px;
   margin-bottom: 10px;
   background-color: $background-color;
   min-height: 155px;

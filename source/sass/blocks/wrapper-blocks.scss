@@ -1,0 +1,15 @@
+@media (min-width: $tablet-width) {
+  .wrapper-blocks {
+    display: flex;
+  }
+
+  .wrapper-blocks__gray {
+    width: 66%;
+    margin-right: 10px;
+  }
+
+  .wrapper-blocks__colored {
+    width: 33%;
+    flex-direction: column;
+  }
+}

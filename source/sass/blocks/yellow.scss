@@ -1,0 +1,9 @@
+.yellow {
+  @include small-block($yellow);
+}
+
+@media (min-width: $tablet-width) {
+  .yellow {
+    width: 100%;
+  }
+}

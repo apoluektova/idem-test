@@ -1,0 +1,23 @@
+.light-gray {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.light-gray__employees {
+  @include small-block($light-gray);
+  margin-right: 10px;
+}
+
+.light-gray__text {
+  @include small-block($light-gray);
+}
+
+.light-gray__conformism {
+  width: 100%;
+  padding: 15px;
+  background-color: $light-gray;
+  min-height: 155px;
+  display: flex;
+  align-items: flex-end;
+}

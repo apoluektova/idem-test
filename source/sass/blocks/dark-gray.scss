@@ -1,0 +1,58 @@
+.dark-gray {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 100%;
+  color: $white;
+}
+
+.dark-gray__genius {
+  width: 67%;
+  background-color: $dark-gray;
+  padding: 19px 19px 3px 10px;
+  margin-right: 6.75px;
+  position: relative;
+  overflow: scroll;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.dark-gray__text {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.dark-gray__wrapper {
+  width: 30.5%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.dark-gray__feeling {
+  background-color: $dark-gray;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  margin-bottom: 6.5px;
+}
+
+.dark-gray__moreno {
+  background-color: $dark-gray;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}

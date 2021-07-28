@@ -3,14 +3,14 @@
   flex-wrap: wrap;
   margin-bottom: 10px;
   width: 100%;
+  height: auto;
   color: $white;
 }
 
 .dark-gray__genius {
   width: 67%;
   background-color: $dark-gray;
-  padding: 19px 19px 3px 10px;
-  margin-right: 6.75px;
+  margin-right: 6.5px;
   position: relative;
   overflow: scroll;
 
@@ -25,7 +25,9 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  width: auto;
+  top: 20px;
+  left: 10px;
+  width: calc(100% - 30px);
   height: auto;
   font-size: 18px;
   line-height: 26px;
@@ -35,7 +37,8 @@
 .dark-gray__wrapper {
   width: 30.5%;
   height: auto;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .dark-gray__feeling {
@@ -44,8 +47,8 @@
   width: 100%;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 10px;
   padding: 10px;
-  margin-bottom: 6.5px;
 }
 
 .dark-gray__moreno {
@@ -55,4 +58,68 @@
   display: flex;
   align-items: flex-end;
   padding: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .dark-gray {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    color: $white;
+  }
+
+  .dark-gray__genius {
+    width: 66.2%;
+    background-color: $dark-gray;
+    margin-right: 10px;
+    position: relative;
+    overflow: scroll;
+
+    &::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+
+  .dark-gray__text {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    width: calc(100% - 71px);
+    height: auto;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .dark-gray__wrapper {
+    width: 32.3%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dark-gray__feeling {
+    background-color: $dark-gray;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    padding: 15px 15px 13px 15px;
+  }
+
+  .dark-gray__moreno {
+    background-color: $dark-gray;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px 15px 13px 15px;
+  }
 }

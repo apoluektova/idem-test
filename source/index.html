@@ -7,7 +7,9 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header">header</header>
+    <div class="header-wrapper">
+      <header class="header">header</header>
+    </div>
     <main class="main">
       <h1 class="visually-hidden">Рандомный абстрактный заголовок</h1>
       <div class="main__wrapper">
@@ -24,8 +26,10 @@
         </div>
         <section class="dark-gray main__wrapper--dark">
           <div class="dark-gray__genius">
-            Гений непредвзято понимает под собой конфликт. Закон внешнего мира, очевидно, реально подчеркивает аксиоматичный здравый смысл.
-            Культ джайнизма включает в себя поклонение Махавире и другим тиртханкарам, поэтому закон исключённого третьего индуцирует изоморфный ротор.
+            <p class="dark-gray__text">
+              Гений непредвзято понимает под собой конфликт. Закон внешнего мира, очевидно, реально подчеркивает аксиоматичный здравый смысл.
+              Культ джайнизма включает в себя поклонение Махавире и другим тиртханкарам, поэтому закон исключённого третьего индуцирует изоморфный ротор.
+            </p>
           </div>
           <div class="dark-gray__wrapper">
             <div class="dark-gray__feeling">Чувство однократно</div>
@@ -37,28 +41,30 @@
             <div class="green__modernisation">Понятие модернизации понимает механизм власти</div>
             <div class="green__employees">Наши сотрудники</div>
           </div>
-          <ul class="green__list">
-            <li class="green__item">
-              <span class="green__text--left">Фамилия</span>
-              <span class="green__text">Мамай</span>
-            </li>
-            <li class="green__item">
-              <span class="green__text--left">Имя и отчество</span>
-              <span class="green__text">Станиславаленина Владимировна</span>
-            </li>
-            <li class="green__item">
-              <span class="green__text--left">Номер полиса выдан заведомо ложный</span>
-              <span class="green__text">01354879</span>
-            </li>
-            <li class="green__item">
-              <span class="green__text--left">Дата рождения</span>
-              <span class="green__text">01.12.1976</span>
-            </li>
-            <li class="green__item">
-              <span class="green__text--left">Телефон</span>
-              <span class="green__text">+79254218069</span>
-            </li>
-          </ul>
+          <div class="green__info">
+            <ul class="green__list">
+              <li class="green__item">
+                <span class="green__text--left">Фамилия</span>
+                <span class="green__text">Мамай</span>
+              </li>
+              <li class="green__item">
+                <span class="green__text--left">Имя и отчество</span>
+                <span class="green__text">Станиславаленина Владимировна</span>
+              </li>
+              <li class="green__item">
+                <span class="green__text--left">Номер полиса выдан заведомо ложный</span>
+                <span class="green__text">01354879</span>
+              </li>
+              <li class="green__item">
+                <span class="green__text--left">Дата рождения</span>
+                <span class="green__text">01.12.1976</span>
+              </li>
+              <li class="green__item">
+                <span class="green__text--left">Телефон</span>
+                <span class="green__text">+79254218069</span>
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="multicolored main__wrapper--multicolored">
           <div class="multicolored__wrapper--small">
@@ -73,6 +79,8 @@
         </section>
       </div>
     </main>
-    <footer class="footer">footer</footer>
+    <div class="header-wrapper">
+      <footer class="footer">footer</footer>
+    </div>
   </body>
 </html>

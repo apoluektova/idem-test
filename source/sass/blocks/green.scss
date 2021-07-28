@@ -5,36 +5,60 @@
 @media (min-width: $tablet-width) {
   .green {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     margin-bottom: 10px;
+  }
+
+  .green__wrapper {
+    width: 30.5%;
+    height: auto;
+    margin-right: 10px;
   }
 
   .green__modernisation {
     background-color: $green;
     display: flex;
     align-items: flex-end;
-    padding: 101px 15px 15px 15px;
+    padding: 6.2%;
     margin-bottom: 10px;
     width: 100%;
+    height: 50%;
   }
 
   .green__employees {
     background-image: url(../img/ship.jpg);
+    background-position: top;
+    background-size: cover;
     color: $white;
     width: 100%;
+    height: 50%;
     margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 6.2%;
   }
 
-  .green__wrapper {
-    width: 32.88%;
-    margin-right: 10px;
+  .green__info {
+    width: 67%;
+    padding: 15px;
+    background-color: $green;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
   }
 
   .green__list {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: auto;
     list-style: none;
     margin: 0;
-    padding: 15px;
-    width: 76.12%;
-    background-color: $green;
+    padding: 0;
     font-family: $table-font;
     font-size: 14px;
     line-height: 19.07px;
@@ -45,14 +69,19 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    border-bottom: 1px dashed $black;
   }
 
   .green__text {
     max-width: 131px;
     text-align: right;
+    display: flex;
+    align-items: flex-end;
 
     &--left {
       max-width: 45%;
+      display: flex;
+      align-items: flex-end;
     }
   }
 }

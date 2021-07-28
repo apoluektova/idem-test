@@ -7,24 +7,40 @@
 }
 
 .dark-gray__genius {
-  width: 211.15px;
-  height: 211.15px;
+  width: 67%;
   background-color: $dark-gray;
-  overflow-y: scroll;
+  padding: 19px 19px 3px 10px;
+  margin-right: 6.75px;
+  position: relative;
+  overflow: scroll;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.dark-gray__text {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  padding: 19px 19px 3px 10px;
-  margin-right: 6.75px;
 }
 
 .dark-gray__wrapper {
-  width: 102px;
+  width: 30.5%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .dark-gray__feeling {
   background-color: $dark-gray;
-  min-height: 102.22px;
+  height: 50%;
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -34,7 +50,7 @@
 
 .dark-gray__moreno {
   background-color: $dark-gray;
-  min-height: 102.22px;
+  height: 50%;
   width: 100%;
   display: flex;
   align-items: flex-end;

@@ -3,6 +3,11 @@
   flex-wrap: wrap;
 }
 
+.multicolored__wrapper--small {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .multicolored__however {
   width: 100%;
   background-color: $peach;

@@ -7,9 +7,9 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <main class="main">
+    <main class="main-dialog">
       <h1 class="visually-hidden">Страница мессенджера</h1>
-      <div class="main__background">
+      <div class="main-dialog__background">
         <section class="messages">
           <h2 class="visually-hidden">Список сообщений</h2>
           <div class="messages__item messages__item--left">
@@ -20,8 +20,8 @@
             </p>
           </div>
           <div class="messages__item messages__item--right">
-            <img class="messages__avatar" src="img/avatar.jpg" width="47" height="47" alt="Аватар пользовтеля">
-            <p class="messages__text">Это означает,</p>
+            <img class="messages__avatar messages__avatar--right" src="img/avatar.jpg" width="47" height="47" alt="Аватар пользовтеля">
+            <p class="messages__text messages__text--right">Это означает,</p>
           </div>
           <div class="messages__item messages__item--left">
             <img class="messages__avatar" src="img/avatar.jpg" width="47" height="47" alt="Аватар пользовтеля">
@@ -29,17 +29,17 @@
           </div>
           <span class="messages__date">21 октября 2017</span>
           <div class="messages__item messages__item--right">
-            <img class="messages__avatar" src="img/avatar.jpg" width="47" height="47" alt="Аватар пользовтеля">
-            <p class="messages__text">Это означает,</p>
+            <img class="messages__avatar messages__avatar--right"" src="img/avatar.jpg" width="47" height="47" alt="Аватар пользовтеля">
+            <p class="messages__text messages__text--right">Это означает,</p>
           </div>
           <div class="messages__item messages__item--left">
             <img class="messages__avatar" src="img/avatar.jpg" width="47" height="47" alt="Аватар пользовтеля">
             <p class="messages__text">доме, офисе, кабинете, мастерской</p>
           </div>
         </section>
-        <form class="form">
-          <textarea class="form__text"></textarea>
-          <button class="form__button"></button>
+        <form class="form" action="" method="post">
+          <textarea class="form__text" id="comment" name="comment">Cowkeifjowefwehifuhqiwuehfqwef wef</textarea>
+          <button class="form__button" type="submit">Отправить</button>
         </form>
       </div>
     </main>

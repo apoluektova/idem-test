@@ -28,6 +28,35 @@
     height: 50%;
   }
 
+  .green__sign {
+    display: none;
+    position: absolute;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 61px;
+      height: 61px;
+      top: 341px;
+      left: 90px;
+      background-color: $white;
+      border-radius: 50%;
+      z-index: 10;
+    }
+
+    &::after {
+      position: absolute;
+      content: "!";
+      color: $red;
+      font-size: 36px;
+      font-weight: 42.19px;
+      text-align: center;
+      top: 360px;
+      left: 116px;
+      z-index: 20;
+    }
+  }
+
   .green__employees {
     background-image: url(../img/ship.jpg);
     background-position: top;
@@ -39,11 +68,16 @@
     align-items: flex-end;
     padding: 15px;
     position: relative;
+    z-index: 0;
 
     &:hover {
-      filter: blur(4px);
+      filter: url(../img/blur-filter.svg#blur-filter);
       cursor: pointer;
     }
+  }
+
+  .green__employees:hover + .green__sign {
+    display: block;
   }
 
   .green__info {

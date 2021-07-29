@@ -1,16 +1,7 @@
 .messages {
   padding: 50px 36px 30px 20px;
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    background: $sepia;
-    bottom: 0;
-    left: 0;
-  }
+  height: 517px;
+  overflow: scroll;
 }
 
 .messages__item {
@@ -36,6 +27,7 @@
   width: 47px;
   height: 47px;
   margin-right: 18px;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 
   &--right {
     margin-right: 0;

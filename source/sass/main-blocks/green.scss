@@ -76,6 +76,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+
+    &--name,
+    &--number {
+      position: relative;
+    }
   }
 
   .green__text {
@@ -89,13 +94,31 @@
       max-width: 47%;
       display: flex;
       align-items: flex-end;
+      margin-left: 0;
       margin-right: 10px;
     }
   }
 
   .green__line {
-    width: 100%;
+    width: auto;
     border-bottom: 1px dashed $black;
     margin-bottom: 4px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    &--name {
+      position: absolute;
+      width: 50%;
+      bottom: 0;
+      left: 118px;
+    }
+
+    &--number {
+      position: absolute;
+      width: 70.1%;
+      bottom: -2px;
+      left: 65px;
+    }
   }
 }

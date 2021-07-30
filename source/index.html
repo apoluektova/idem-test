@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>idem frontend developer test task</title>
     <link href="css/style.min.css" rel="stylesheet">
   </head>
@@ -39,7 +40,17 @@
         <section class="green main__wrapper--green">
           <div class="green__wrapper">
             <div class="green__modernisation">Понятие модернизации понимает механизм власти</div>
-            <div class="green__employees">Наши сотрудники</div>
+            <div class="green__employees">
+              <svg class="green__background" width="100%" height="100%">
+                <defs>
+                  <filter id="blur">
+                    <feGaussianBlur stddeviation="5" />
+                  </filter>
+                </defs>
+                <image class="green__image" xlink:href="img/ship.jpg" width="100%" height="100%" filter="" />
+                <text class="green__content" x="5%" y="90%" filter="">Наши сотрудники</text>
+              </svg>
+            </div>
             <div class="green__sign"></div>
           </div>
           <div class="green__info">

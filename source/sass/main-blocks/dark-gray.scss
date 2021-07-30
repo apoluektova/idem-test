@@ -12,7 +12,7 @@
   background-color: $dark-gray;
   margin-right: 6.5px;
   position: relative;
-  overflow: scroll;
+  overflow-y: auto;
 
   &::after {
     content: "";
@@ -75,7 +75,6 @@
     background-color: $dark-gray;
     margin-right: 10px;
     position: relative;
-    overflow: scroll;
 
     &::after {
       content: "";

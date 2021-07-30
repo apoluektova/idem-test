@@ -19,7 +19,8 @@
     flex-direction: row-reverse;
   }
 
-  &:last-of-type {
+  &:last-of-type,
+  &:nth-of-type(5) {
     margin-bottom: 30px
   }
 }

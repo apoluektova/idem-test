@@ -21,7 +21,7 @@
 
   &:last-of-type,
   &:nth-of-type(5) {
-    margin-bottom: 30px
+    margin-bottom: 30px;
   }
 }
 
@@ -60,6 +60,7 @@
 
 .messages__text--right {
   padding: 12px 15px 11px 12px;
+
   &::before {
     display: none;
   }

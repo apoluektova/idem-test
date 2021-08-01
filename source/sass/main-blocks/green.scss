@@ -81,11 +81,11 @@
   }
 
   .green__background:hover .green__image[filter] {
-    filter: url(#blur);
+    filter: url("#blur");
   }
 
   .green__background:hover .green__content[filter] {
-    filter: url(#blur);
+    filter: url("#blur");
   }
 
 
@@ -99,7 +99,7 @@
     background-color: $green;
     position: relative;
 
-    &:after {
+    &::after {
       content: "";
       display: block;
       padding-bottom: 100%;

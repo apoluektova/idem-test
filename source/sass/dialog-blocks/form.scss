@@ -26,6 +26,10 @@
   line-height: 19.07px;
   min-height: 129px;
   margin-bottom: 20px;
+
+  &:hover {
+    border: 2px solid $bright-blue;
+  }
 }
 
 .form__button {
@@ -40,4 +44,14 @@
   border: none;
   border-radius: 21px;
   box-shadow: 0px 4px 6px rgba(15, 84, 185, 0.3);
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid $white;
+  }
+
+  &:active {
+    background-color: rgba($bright-blue, 0.7);
+    color: rgba($white, 0.7);
+  }
 }

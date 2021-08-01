@@ -1,7 +1,7 @@
 # Тестовое задание для компании idem на должность фронтенд-разработчика
 
 ## Deploy:
-* [Главная страница](idem-test-task.netlify.app)
+* [Главная страница](https://idem-test-task.netlify.app/)
 * [Страница диалога](https://idem-test-task.netlify.app/dialog.html)
 
 

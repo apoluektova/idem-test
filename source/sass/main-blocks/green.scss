@@ -80,15 +80,15 @@
     width: 100%;
     height: 100%;
   }
-  
+
   .green__content {
     fill: $white;
   }
-  
+
   .green__background:hover .green__image[filter] {
     filter: url(#blur);
   }
-  
+
   .green__background:hover .green__content[filter] {
     filter: url(#blur);
   }
@@ -147,6 +147,7 @@
       align-items: flex-end;
       margin-left: 0;
       margin-right: 10px;
+      text-align: left;
     }
   }
 

@@ -1,9 +1,8 @@
 # Тестовое задание для компании idem на должность фронтенд-разработчика
 
-## Deploy:
+## Опубликованная версия:
 * [Главная страница](https://idem-test-task.netlify.app/)
 * [Страница диалога](https://idem-test-task.netlify.app/dialog.html)
-
 
 ## Требования: 
 
@@ -27,5 +26,15 @@ npm run start
 ### Сборка
 ```
 npm run build
+```
+
+### Главная страница
+```
+http://localhost:3000/
+```
+
+### Страница диалога
+```
+http://localhost:3000/dialog.html
 ```
 
